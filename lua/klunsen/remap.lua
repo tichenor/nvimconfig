@@ -29,3 +29,6 @@ vim.keymap.set("n", "<leader>re", "<C-^>")
 
 -- Source a file
 vim.keymap.set("n", "<leader><leader>", function () vim.cmd("so") end)
+
+-- Close a pane
+vim.keymap.set("n", "<leader>q", function () vim.cmd("q") end)
